@@ -1,0 +1,63 @@
+div{
+	/*border: 1px red solid;*/
+}
+.container{
+	margin: 0;
+	padding: 0;
+	background: #1d2026;
+	width: 100%;
+	color: #fff;
+}
+.navbar{
+	display: flex;
+	width: 100%;
+	padding: 10px 8%;
+	align-items: center;
+	background: #095d05;
+	position:fixed;
+}
+.navbar .menu-img{
+	width: 25px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.navbar .logo{
+	width: 250px;
+	color: red;
+    cursor: pointer;
+}
+.navbar ul{
+	flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+	display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+
+}
+.navbar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+button{
+	
+	background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s
+}
+button span{
+	display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 0px;
+    transition: background 0.5s,margin-left 0.5s;
+}
